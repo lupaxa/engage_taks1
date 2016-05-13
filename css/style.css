@@ -13,6 +13,11 @@ a {
     color: inherit;
 }
 
+h1{
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width:100%;
     vertical-align:bottom;
@@ -59,19 +64,38 @@ body{
     justify-content: space-between;
     padding: 8px 0;
 }
-.logo__main-img{
+
+.logo_{
     display: flex;
     padding: 10px 0;
 }
+.logo__link{
+
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.logo__main-text{
+    font-size: 464%;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.logo__main-text h1:first-letter {
+    color: #adabab;
+}
+
+
+
 .logo__index {
-    display: table;
+    display: inline-block;
     padding: 3px 4px;
     color: #f8f8f8;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 136.36%;
     font-weight: 700;
-    line-height: 17px;
+    /*line-height: 17px;*/
     background-color: #81d8d0;
     border-radius: 2px;
     margin-left: 3px;
@@ -82,14 +106,27 @@ body{
     /*background-color: #f65423;*/
 /*}*/
 
+.logo--footer {
 
+}
+.logo__main-text--grey{
+     color: #adabab;
+ }
+.logo__main-text--footer{
+    font-size: 300%;
+}
+.logo__index--bg-grey{
+    background-color: #adabab;
+    font-size: 91%;
+    padding: 2px 3px;
+}
 
 .title__login_form{
     display: flex;
     width: 70%;
     justify-content: flex-end;
 }
-.title-login_form-authorization{
+.login-form__authorization{
     margin-right: 20px;
 }
 .authorization-currency{
