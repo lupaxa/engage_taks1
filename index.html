@@ -6,81 +6,99 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-    <header class="header">
-        <section class="header__title">
-            <div class="title">
 
-                <div class="title__logo wrap">
-                    <!-- logo -->
-                    <div class="logo">
-                        <a class="logo__link" href="#">
-                                <!--<img src="img/logo.png" alt="Logo" class="logo__img">-->
-                            <h1 class="logo__main-text">Jewelry</h1>
-                        </a>
-                        <div class="logo__index"><span>store</span></div>
+<div class="page-block">
+    <header class="page-block__header">
+
+        <div class="header">
+
+            <section class="header__line wrap">
+
+                    <div class="header-section header-section--logo">
+                        <!-- logo -->
+                        <div class="logo">
+                            <a class="logo__link " href="#">
+                                <h1 class="logo__main-text">Jewelry</h1>
+                            </a>
+                            <div class="logo__label"><span>store</span></div>
+                        </div>
+                        <!-- /logo -->
                     </div>
-                    <!-- /logo -->
 
-                    <div class="title__login-form">
-                        <div class="login-form">
-                            <div class="title-login_form-authorization authorization">
-                                <div class="authorization-currency currency">
-                                    <div class="currency-title">Currency:</div>
-                                    <div class="currency-item"><span>&euro;</span></div>
-                                    <div class="currency-item"><span>&pound</span></div>
-                                    <div class="currency-item currency-item--active"><span>&#36;</span></div>
+
+                    <div class="header-section header-section--user-info">
+
+                            <div class="header-section__inner-block header-section__inner-block_currency-login ">
+                                <div class="currency">
+                                    <div class="currency__title">Currency:</div>
+                                    <div class="currency__list">
+                                        <ul class="currency-list">
+                                            <li class="currency__item">
+                                                <button type="button" class="currency-button">&#8364</button>
+                                            </li>
+                                            <li class="currency__item">
+                                                <button type="button" class="currency-button">&#163</button>
+                                            </li>
+                                            <li class="currency__item ">
+                                                <button type="button" class="currency-button currency-button--active">&#36</button>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="authorization-form">
-                                    <p>Welcome visitor you can <a href="#"><span class="authorization-form--login">login</span></a>
-                                        or <a href=""><span class="authorization-form--create">create an account</span></a></p>
+                                    <span class="authorization-form__text">Welcome visitor you can</span>
+                                    <a href="#" class="authorization-form__text authorization-form__text--login">login</a>
+                                    <span class="authorization-form__text">or</span>
+                                    <a href="#" class="authorization-form__text authorization-form__text--create">create an account</a>
                                 </div>
-                            </div>
-                        </div>
 
-                        <!-- shopping cart -->
-                        <div class="title-login_form-shop_cart shop_cart">
-                            <div class="shop_cart-basket">
-                                <img src="img/icons/backet.png" alt="basket">
                             </div>
-                            <div class="shop_cart-info">
-                                <h4 class="shop_cart-info-header">Shopping Cart</h4>
-                                <div class="shop_cart-info-purchase_date purchase_date">
-                                    <p>0 item(s) - $0.00</p>
-                                    <span class="purchase_date-dropdown_arrow js-dropdown_order"></span>
+
+                            <div class="header-section__inner-block header-section__inner-block_shop-cart ">
+                                <!-- shopping cart -->
+                                <div class="shopping-cart">
+                                    <div class="shopping-cart-info">
+                                        <div class="shop_cart-info__header"><span>shopping cart</span></div>
+                                        <div class="shop_cart-info__purchase_date">
+                                            <span class="shop_cart-info__purchase_date-item">0</span>
+                                            <span class="shop_cart-info__purchase_date-item">item(s)</span>
+                                            <span class="shop_cart-info__purchase_date-item"> - $0.00</span>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- /shopping cart -->
                             </div>
-                        </div>
-                        <!-- /shopping cart -->
                     </div>
-                </div>
-            </div>
 
-        </section>
-        <nav class="header__nav nav">
-            <div class="wrap">
-                <div class="header-nav-inn">
-                    <div class="nav-search search ">
+
+            </section>
+            <nav class="header__nav nav">
+                <div class="wrap">
+                    <div class="header-nav-inn">
+                        <div class="nav-search search ">
                             <form>
-                                <input class="search-input"  type="search" value="">
+                                <input class="search-input" type="search" value="">
                                 <input class="search-submit" type="submit" value="">
                             </form>
-                    </div>
-                    <div class="nav-menu menu">
-                        <ul>
-                            <li class="nav-menu-item menu-item--active"><a href="">home</a></li>
-                            <li class="nav-menu-item"><a href="">wish list(0)</a></li>
-                            <li class="nav-menu-item"><a href="">my account</a></li>
-                            <li class="nav-menu-item"><a href="">shopping cart</a></li>
-                            <li class="nav-menu-item"><a href="">checkout</a></li>
-                        </ul>
+                        </div>
+                        <div class="nav-menu menu">
+                            <ul>
+                                <li class="nav-menu-item menu-item--active"><a href="">home</a></li>
+                                <li class="nav-menu-item"><a href="">wish list(0)</a></li>
+                                <li class="nav-menu-item"><a href="">my account</a></li>
+                                <li class="nav-menu-item"><a href="">shopping cart</a></li>
+                                <li class="nav-menu-item"><a href="">checkout</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+</div>
     </header>
     <main>
         <section class="showcase">
@@ -90,7 +108,8 @@
                         <nav class="sidebar-nav ">
                             <ul class="sidebar-nav-menu sidebar-nemu">
                                 <li class="sidebar-menu-item sidebar-menu-item--active ">
-                                    <div class="menu-item-title menu-item-title--first">engagement<span class="menu-item-title-arrow"></span></div>
+                                    <div class="menu-item-title menu-item-title--first">engagement<span
+                                            class="menu-item-title-arrow"></span></div>
 
                                     <ul class="sidebar-submenu">
                                         <li class="submenu-item submenu-item--active">Lorem ipsum <span>(15)</span></li>
@@ -103,15 +122,33 @@
                                         <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
                                     </ul>
                                 </li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">jewelry</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">diamonds</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">watches</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">men’s</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">accessories</div> <span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">gifts</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">table</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">leather goods</div><span></span></li>
-                                <li class="sidebar-menu-item"><div class="menu-item-title">sunglasses</div><span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">jewelry</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">diamonds</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">watches</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">men’s</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">accessories</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">gifts</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">table</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">leather goods</div>
+                                    <span></span></li>
+                                <li class="sidebar-menu-item">
+                                    <div class="menu-item-title">sunglasses</div>
+                                    <span></span></li>
                             </ul>
                         </nav>
                     </div>
@@ -122,7 +159,8 @@
                             </div>
                             <div class="slide_list">
                                 <ul>
-                                    <li class=" slide_list-item slide_list-item--active"><img src="img/slide1.jpg" alt="slide1"></li>
+                                    <li class=" slide_list-item slide_list-item--active"><img src="img/slide1.jpg"
+                                                                                              alt="slide1"></li>
                                     <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
                                     <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
                                     <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
@@ -144,12 +182,13 @@
     <footer>
         <div class="logo logo--footer">
             <a class="logo__link" href="#">
-            <!--<img src="img/logo.png" alt="Logo" class="logo__img">-->
-            <h1 class="logo__main-text logo__main-text--grey logo__main-text--footer">Jewelry</h1>
+                <!--<img src="img/logo.png" alt="Logo" class="logo__img">-->
+                <h1 class="logo__main-text logo__main-text--grey logo__main-text--footer">Jewelry</h1>
             </a>
             <div class="logo__index logo__index--bg-grey"><span>store</span></div>
         </div>
     </footer>
+</div>
 
 </body>
 </html>
