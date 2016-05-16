@@ -5,8 +5,7 @@
     <title>Jewerly</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -15,169 +14,236 @@
     <header class="page-block__header">
 
         <div class="header">
+            <div class="header__row header__row_logo-row">
+                <div class="wrap">
 
-            <section class="header__line wrap">
+                <section class="header__line wrap">
 
-                    <div class="header-section header-section--logo">
+                    <div class="header-section header-section_logo">
                         <!-- logo -->
                         <div class="logo">
                             <a class="logo__link " href="#">
-                                <h1 class="logo__main-text">Jewelry</h1>
+                                <div class="logo__main-text">
+                                    <span class="logo__text logo__text_first-letter ">J</span><span>ewelry</span></div>
                             </a>
                             <div class="logo__label"><span>store</span></div>
                         </div>
                         <!-- /logo -->
                     </div>
 
-
                     <div class="header-section header-section--user-info">
 
-                            <div class="header-section__inner-block header-section__inner-block_currency-login ">
-                                <div class="currency">
-                                    <div class="currency__title">Currency:</div>
-                                    <div class="currency__list">
-                                        <ul class="currency-list">
-                                            <li class="currency__item">
-                                                <button type="button" class="currency-button">&#8364</button>
-                                            </li>
-                                            <li class="currency__item">
-                                                <button type="button" class="currency-button">&#163</button>
-                                            </li>
-                                            <li class="currency__item ">
-                                                <button type="button" class="currency-button currency-button--active">&#36</button>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        <div class="header-section__inner-block header-section__inner-block_currency-login ">
+                            <div class="currency">
+                                <div class="currency__title">Currency:</div>
+                                <div class="currency__list">
+                                    <ul class="currency-list">
+                                        <li class="currency__item">
+                                            <button type="button" class="currency-button">&#8364</button>
+                                        </li>
+                                        <li class="currency__item">
+                                            <button type="button" class="currency-button">&#163</button>
+                                        </li>
+                                        <li class="currency__item ">
+                                            <button type="button" class="currency-button currency-button--active">&#36</button>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="authorization-form">
-                                    <span class="authorization-form__text">Welcome visitor you can</span>
-                                    <a href="#" class="authorization-form__text authorization-form__text--login">login</a>
-                                    <span class="authorization-form__text">or</span>
-                                    <a href="#" class="authorization-form__text authorization-form__text--create">create an account</a>
-                                </div>
-
+                            </div>
+                            <div class="authorization-form">
+                                <span class="authorization-form__text">Welcome visitor you can</span>
+                                <a href="#" class="authorization-form__text authorization-form__text--login">login</a>
+                                <span class="authorization-form__text">or</span>
+                                <a href="#" class="authorization-form__text authorization-form__text--create">create an account</a>
                             </div>
 
-                            <div class="header-section__inner-block header-section__inner-block_shop-cart ">
-                                <!-- shopping cart -->
-                                <div class="shopping-cart">
-                                    <div class="shopping-cart-info">
-                                        <div class="shop_cart-info__header"><span>shopping cart</span></div>
-                                        <div class="shop_cart-info__purchase_date">
-                                            <span class="shop_cart-info__purchase_date-item">0</span>
-                                            <span class="shop_cart-info__purchase_date-item">item(s)</span>
-                                            <span class="shop_cart-info__purchase_date-item"> - $0.00</span>
-                                        </div>
+                        </div>
+                        <div class="header-section__inner-block header-section__inner-block_shop-cart ">
+                            <!-- shopping cart -->
+                            <div class="shopping-cart">
+                                <div class="shopping-cart-info">
+                                    <div class="shop_cart-info__header"><span>shopping cart</span></div>
+                                    <div class="shop_cart-info__purchase_date">
+                                        <span class="shop_cart-info__purchase_date-item">0</span>
+                                        <span class="shop_cart-info__purchase_date-item">item(s)</span>
+                                        <span class="shop_cart-info__purchase_date-item"> - $0.00</span>
                                     </div>
                                 </div>
-                                <!-- /shopping cart -->
                             </div>
-                    </div>
-
-
-            </section>
-            <nav class="header__nav nav">
-                <div class="wrap">
-                    <div class="header-nav-inn">
-                        <div class="nav-search search ">
-                            <form>
-                                <input class="search-input" type="search" value="">
-                                <input class="search-submit" type="submit" value="">
-                            </form>
-                        </div>
-                        <div class="nav-menu menu">
-                            <ul>
-                                <li class="nav-menu-item menu-item--active"><a href="">home</a></li>
-                                <li class="nav-menu-item"><a href="">wish list(0)</a></li>
-                                <li class="nav-menu-item"><a href="">my account</a></li>
-                                <li class="nav-menu-item"><a href="">shopping cart</a></li>
-                                <li class="nav-menu-item"><a href="">checkout</a></li>
-                            </ul>
+                            <!-- /shopping cart -->
                         </div>
                     </div>
-                </div>
-            </nav>
+
+                </section>
+            </div>
+
+            <div class="header__row header__row_nav-row">
+                <nav class="header__nav ">
+                    <div class="nav-panel wrap">
+                        <div class="nav-panel__block nav-panel__block_input">
+                            <div class="search-block">
+                                <form class="search-field">
+                                    <input class="search-field__input" type="search" value="">
+                                    <input class="search-field__submit" type="submit" value="">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="nav-panel__block nav-panel__block_menu">
+
+                            <div class="nav-menu">
+                                <ul class="nav-menu__list">
+                                    <li class="nav-menu__item menu__item_active"><a class="nav-menu__link nav-menu__link_active" href="">home</a></li>
+                                    <li class="nav-menu__item"><a class="nav-menu__link" href="">wish list(0)</a></li>
+                                    <li class="nav-menu__item"><a class="nav-menu__link" href="">my account</a></li>
+                                    <li class="nav-menu__item"><a class="nav-menu__link" href="">shopping cart</a></li>
+                                    <li class="nav-menu__item"><a class="nav-menu__link" href="">checkout</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </nav>
+            </div>
+
+
+
         </div>
 </div>
     </header>
-    <main>
+
         <section class="showcase">
+
             <div class="wrap">
                 <div class="showcase-inn">
-                    <div class="showcase-sidebar sidebar">
-                        <nav class="sidebar-nav ">
-                            <ul class="sidebar-nav-menu sidebar-nemu">
-                                <li class="sidebar-menu-item sidebar-menu-item--active ">
-                                    <div class="menu-item-title menu-item-title--first">engagement<span
-                                            class="menu-item-title-arrow"></span></div>
 
-                                    <ul class="sidebar-submenu">
-                                        <li class="submenu-item submenu-item--active">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                        <li class="submenu-item">Lorem ipsum <span>(15)</span></li>
-                                    </ul>
-                                </li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">jewelry</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">diamonds</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">watches</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">men’s</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">accessories</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">gifts</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">table</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">leather goods</div>
-                                    <span></span></li>
-                                <li class="sidebar-menu-item">
-                                    <div class="menu-item-title">sunglasses</div>
-                                    <span></span></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="showcase-slider">
-                        <div class="slider-block">
-                            <div class="main_slide">
-                                <img src="img/slide1.jpg" alt="slide1">
-                            </div>
-                            <div class="slide_list">
-                                <ul>
-                                    <li class=" slide_list-item slide_list-item--active"><img src="img/slide1.jpg"
-                                                                                              alt="slide1"></li>
-                                    <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
-                                    <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
-                                    <li class="slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
-                                    <li class=" slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
-                                    <li class=" slide_list-item"><img src="img/slide1.jpg" alt="slide1"></li>
+                    <aside class="showcase-sidebar">
+                        <div class="showcase-sidebar__menu">
+                            <div class="sidebar-nav">
+                                <ul class="sidebar-nav-menu ">
+                                    <li class="sidebar-menu__item sidebar-menu__item_active ">
+                                        <div class=" sidebar-menu__item-title sidebar-menu__item-title_active"><span>engagement</span></div>
+
+                                        <ul class="sidebar-submenu">
+                                            <li class="submenu-item submenu-item--active"><a class="sidebar-submenu__link"  href="">Lorem ipsum</a> <span>(15)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolor sit amet</a> <span>(21)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Adipisicing</a> <span>(2)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Do eiusmod</a> <span>(14)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Tempor incididunt</a> <span>(7)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Ut labore et</a> <span>(03)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolore magna</a> <span>(27)</span></li>
+                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Aliqua</a> <span>(6)</span></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">jewelry</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">diamonds</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">watches</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">men’s</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">accessories</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">gifts</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">table</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">leather goods</div>
+                                    </li>
+                                    <li class="sidebar-menu__item">
+                                        <div class="sidebar-menu__item-title">sunglasses</div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="call_action_block">
-                            <div class="call_action_block-item"></div>
-                            <div class="call_action_block-item"></div>
+
+                        <div class="showcase-sidebar__social">
+                            <div class="social-block social-block_fb">
+                                <div class="social-block__name social-block__name_fb"><span>facebook</span></div>
+                            </div>
+                            <div class="social-block social-block_is">
+                                <div class="social-block__name social-block__name_is"><span>about us</span></div>
                         </div>
+
+                    </aside>
+
+
+
+                    <div class="showcase-proposal">
+                        <div class="showcase-proposal__row">
+
+                            <div class="slider">
+                                <div class="slider__current_slide">
+                                    <div class="current-slide">
+                                        <div class="current-slide__img">
+                                            <img class="" src="img/slide1.jpg" alt="slide1">
+                                        </div>
+                                        <div class="current-slide__nav">
+                                            <div class="current-slide__title"><span class="current-slide__text">ut labore et dolore magna</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__slides-list">
+                                        <ul class="slides-list">
+                                            <li class="slides-list__item slide-list__item-active"><img class="slide-list__img" src="img/slide1.jpg" alt="slide1"></li>
+                                            <li class="slides-list__item"><img class="slide-list__img" src="img/slide2.jpg" alt="slide1"></li>
+                                            <li class="slides-list__item"><img class="slide-list__img" src="img/slide3.jpg" alt="slide1"></li>
+                                            <li class="slides-list__item"><img class="slide-list__img" src="img/slide4.jpg" alt="slide1"></li>
+                                            <li class="slides-list__item"><img class="slide-list__img" src="img/slide5.jpg" alt="slide1"></li>
+                                            <li class="slides-list__item"><img class="slide-list__img" src="img/slide6.jpg" alt="slide1"></li>
+                                        </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="showcase-proposal__row showcase-proposal__row_call-action">
+
+                            <div class="call-action-block">
+                                <div class="call-action-block__item">
+                                    <div class="call-action-item">
+                                        <img src="img/pic1.jpg" alt="" class="call-action-item__image">
+                                        <div class="call-action-item__button">
+                                            <div class="call-action-button">
+                                                <a href="" class="call-action-button__link call-action-button__link_gren">
+                                                    <div class="call-action-button__text"><span></span></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div
+                                ><div class="call-action-block__item ">
+                                    <div class="call-action-item">
+                                        <img src="img/pic2.jpg" alt="" class="call-action-item__image">
+                                        <div class="call-action-item__button call-action-item__button_pading-right">
+                                            <div class="call-action-button">
+                                                <a href="" class="call-action-button__link call-action-button__link_red">
+                                                    <div class="call-action-button__text"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
-    </main>
+<main>
+</main>
 
     <footer>
         <div class="logo logo--footer">
