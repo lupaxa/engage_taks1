@@ -82,7 +82,7 @@
                     <div class="nav-panel wrap">
                         <div class="nav-panel__block nav-panel__block_input">
                             <div class="search-block">
-                                <form class="search-field">
+                                <form class="search-field" action="post">
                                     <input class="search-field__input" type="search" value="">
                                     <input class="search-field__submit" type="submit" value="">
                                 </form>
@@ -102,8 +102,6 @@
                             </div>
 
                         </div>
-
-
                     </div>
 
                 </nav>
@@ -114,88 +112,100 @@
         </div>
 </div>
     </header>
-
         <section class="showcase">
-
             <div class="wrap">
                 <div class="showcase-inn">
-
-                    <aside class="showcase-sidebar">
-                        <div class="showcase-sidebar__menu">
-                            <div class="sidebar-nav">
-                                <ul class="sidebar-nav-menu ">
-                                    <li class="sidebar-menu__item sidebar-menu__item_active ">
-                                        <div class=" sidebar-menu__item-title sidebar-menu__item-title_active"><span>engagement</span></div>
-
-                                        <ul class="sidebar-submenu">
-                                            <li class="submenu-item submenu-item--active"><a class="sidebar-submenu__link"  href="">Lorem ipsum</a> <span>(15)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolor sit amet</a> <span>(21)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Adipisicing</a> <span>(2)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Do eiusmod</a> <span>(14)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Tempor incididunt</a> <span>(7)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Ut labore et</a> <span>(03)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolore magna</a> <span>(27)</span></li>
-                                            <li class="submenu-item"><a class="sidebar-submenu__link" href="">Aliqua</a> <span>(6)</span></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">jewelry</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">diamonds</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">watches</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">men’s</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">accessories</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">gifts</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">table</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">leather goods</div>
-                                    </li>
-                                    <li class="sidebar-menu__item">
-                                        <div class="sidebar-menu__item-title">sunglasses</div>
-                                    </li>
-                                </ul>
+                    <div class="showcase-inn__col showcase-inn__col_sidebar">
+                        <aside class="showcase-sidebar">
+                            <div class="showcase-sidebar__menu">
+                                <div class="sidebar-nav">
+                                    <ul class="sidebar-nav-menu ">
+                                        <li class="sidebar-menu__item sidebar-menu__item_active ">
+                                            <div class=" sidebar-menu__item-title sidebar-menu__item-title_active"><span>engagement</span></div>
+                                            <ul class="sidebar-submenu">
+                                                <li class="submenu-item submenu-item_active"><a class="sidebar-submenu__link"  href="">Lorem ipsum</a> <span>(15)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolor sit amet</a> <span>(21)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Adipisicing</a> <span>(2)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Do eiusmod</a> <span>(14)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Tempor incididunt</a> <span>(7)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Ut labore et</a> <span>(03)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Dolore magna</a> <span>(27)</span></li>
+                                                <li class="submenu-item"><a class="sidebar-submenu__link" href="">Aliqua</a> <span>(6)</span></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="#" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">jewelry</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="#" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">diamonds</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="#" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">watches</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">men’s</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">accessories</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">gifts</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">table</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">leather goods</div>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu__item">
+                                            <a href="" class="sidebar-menu__link">
+                                                <div class="sidebar-menu__item-title">sunglasses</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="showcase-sidebar__social">
-                            <div class="social-block social-block_fb">
-                                <div class="social-block__name social-block__name_fb"><span>facebook</span></div>
-                            </div>
-                            <div class="social-block social-block_is">
-                                <div class="social-block__name social-block__name_is"><span>about us</span></div>
-                        </div>
-
-                    </aside>
-
-
-
-                    <div class="showcase-proposal">
-                        <div class="showcase-proposal__row">
-
-                            <div class="slider">
-                                <div class="slider__current_slide">
-                                    <div class="current-slide">
-                                        <div class="current-slide__img">
-                                            <img class="" src="img/slide1.jpg" alt="slide1">
-                                        </div>
-                                        <div class="current-slide__nav">
-                                            <div class="current-slide__title"><span class="current-slide__text">ut labore et dolore magna</span></div>
+                            <div class="showcase-sidebar__social">
+                                <div class="social-block social-block_fb">
+                                    <div class="social-block__name social-block__name_fb"><span>facebook</span></div>
+                                </div>
+                                <div class="social-block social-block_is">
+                                    <div class="social-block__name social-block__name_is"><span>about us</span></div>
+                                </div>
+                        </aside>
+                    </div>
+                    <div class="showcase-inn__col showcase-inn__col_main-content">
+                        <div class="showcase-proposal">
+                            <div class="showcase-proposal__row">
+                                <div class="slider">
+                                    <div class="slider__current_slide">
+                                        <div class="current-slide">
+                                            <div class="current-slide__img">
+                                                <img class="" src="img/slide1.jpg" alt="slide1">
+                                            </div>
+                                            <div class="current-slide__nav">
+                                                <div class="current-slide__title"><span class="current-slide__text">ut labore et dolore magna</span></div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="slider__slides-list">
+                                    <div class="slider__slides-list">
                                         <ul class="slides-list">
                                             <li class="slides-list__item slide-list__item-active"><img class="slide-list__img" src="img/slide1.jpg" alt="slide1"></li>
                                             <li class="slides-list__item"><img class="slide-list__img" src="img/slide2.jpg" alt="slide1"></li>
@@ -204,26 +214,26 @@
                                             <li class="slides-list__item"><img class="slide-list__img" src="img/slide5.jpg" alt="slide1"></li>
                                             <li class="slides-list__item"><img class="slide-list__img" src="img/slide6.jpg" alt="slide1"></li>
                                         </ul>
+                                    </div>
                                 </div>
+
                             </div>
+                            <div class="showcase-proposal__row showcase-proposal__row_call-action">
 
-                        </div>
-                        <div class="showcase-proposal__row showcase-proposal__row_call-action">
-
-                            <div class="call-action-block">
-                                <div class="call-action-block__item">
-                                    <div class="call-action-item">
-                                        <img src="img/pic1.jpg" alt="" class="call-action-item__image">
-                                        <div class="call-action-item__button">
-                                            <div class="call-action-button">
-                                                <a href="" class="call-action-button__link call-action-button__link_gren">
-                                                    <div class="call-action-button__text"><span></span></div>
-                                                </a>
+                                <div class="call-action-block">
+                                    <div class="call-action-block__item">
+                                        <div class="call-action-item">
+                                            <img src="img/pic1.jpg" alt="" class="call-action-item__image">
+                                            <div class="call-action-item__button">
+                                                <div class="call-action-button">
+                                                    <a href="" class="call-action-button__link call-action-button__link_gren">
+                                                        <div class="call-action-button__text"><span></span></div>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div
-                                ><div class="call-action-block__item ">
+                                    </div
+                                    ><div class="call-action-block__item ">
                                     <div class="call-action-item">
                                         <img src="img/pic2.jpg" alt="" class="call-action-item__image">
                                         <div class="call-action-item__button call-action-item__button_pading-right">
@@ -235,9 +245,286 @@
                                         </div>
                                     </div>
                                 </div>
+                                </div>
+                            </div>
+                            <div class="showcase-proposal__row showcase-proposal__row_deals-day">
+
+                                <div class="deals-day-block">
+                                    <div class="deals-day-block__col deals-day-block__col_info">
+                                        <div class="deals-day-block-info">
+                                                <div class="deals-day-block-info__text-row deals-day-block-info__text-row_title">
+                                                    <div class="call-text-block ">
+                                                        <span class="call-text-block__unit call-text-block__unit_semi-bold call-text-block__unit_br">Deals </span><span class="call-text-block__unit call-text-block__unit_green  call-text-block__unit_semi-bold call-text-block__unit_f41">of the Day</span>
+                                                    </div>
+                                                </div>
+                                                <div class="deals-day-block-info__text-row deals-day-block-info__text-row_description">
+                                                    <div class="call-text-block">
+                                                        <span class="call-text-block__unit call-text-block__unit_upper  call-text-block__unit_semi-bold">SALE</span> <span class="call-text-block__unit call-text-block__unit_grey">extra lines just added up to</span>
+                                                        <span class="call-text-block__unit call-text-block__unit_green  call-text-block__unit_semi-bold">20% off</span>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="deals-day-block__col deals-day-block__col_slider">
+
+                                            <div class="deals-day-block-slider">
+                                                <div class="deals-day-block-slider__item">
+                                                    <div class="deals-day-product">
+                                                        <div class="deals-day-product__image">
+                                                            <img src="img/product/item1.png" alt="product">
+                                                            <div class="deals-day-product__image-special-offers"></div>
+                                                        </div>
+                                                        <div class="deals-day-product__title">
+                                                            <div class="product-block-title product-block-title_red ">
+                                                                <span class="product-block-title__unit">Lorem </span>
+                                                                <span class="product-block-title__unit product-block-title__unit_upper">ipsum dolor</span>
+                                                                <span class="product-block-title__unit">sit conse Ctetur adipisi</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="deals-day-product__price">
+                                                            <div class="product-price">
+                                                                <div class="product-price__item product-price__item_old">
+                                                                    <span>$328.96</span>
+                                                                </div>
+                                                                <div class="product-price__item product-price__item_new">
+                                                                    <span>$258.96</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="deals-day-block-slider__item">
+                                                    <div class="deals-day-product">
+                                                        <div class="deals-day-product__image">
+                                                            <img src="img/product/item2.png" alt="product">
+                                                        </div>
+                                                        <div class="deals-day-product__title">
+                                                            <div class="product-block-title">
+                                                                <span class="product-block-title__unit product-block-title__unit_upper">dolor</span>
+                                                                <span class="product-block-title__unit">sit conse Ctetur adipisi  </span>
+                                                                <span class="product-block-title__unit product-block-title__unit_upper">set</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="deals-day-product__price">
+                                                            <div class="product-price">
+                                                                <div class="product-price__item product-price__item_old">
+                                                                    <span>$328.96</span>
+                                                                </div>
+                                                                <div class="product-price__item product-price__item_new">
+                                                                    <span>$258.96</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="deals-day-block-slider__item">
+                                                    <div class="deals-day-product">
+                                                        <div class="deals-day-product__image">
+                                                            <img src="img/product/item3.png" alt="product">
+                                                        </div>
+                                                        <div class="deals-day-product__title">
+                                                            <div class="product-block-title">
+                                                                <span class="product-block-title__unit">Set magna </span>
+                                                                <span class="product-block-title__unit product-block-title__unit_upper">ipsum dolor</span>
+                                                                <span class="product-block-title__unit">sit conse</span>
+                                                                <span class="product-block-title__unit product-block-title__unit_upper">stetur adipisi</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="deals-day-product__price">
+                                                            <div class="product-price">
+                                                                <div class="product-price__item product-price__item_old">
+                                                                    <span>$328.96</span>
+                                                                </div>
+                                                                <div class="product-price__item product-price__item_new">
+                                                                    <span>$258.96</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="showcase-proposal__row showcase-proposal__row_special-offers" >
+                                <div class="special-offers">
+
+                                    <div class="special-offers__item">
+                                        <div class="product-block">
+                                            <a href="" class="product-block__link">
+                                                <div class="product-block__title ">
+                                                    <div class="product-block-title product-block-title_2row">
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">dolor</span>
+                                                        <span class="product-block-title__unit">sit conse Ctetur adipisi  </span>
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">set</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-block__image">
+                                                    <img src="img/product/item4.jpg" alt="product">
+                                                </div>
+                                                <div class="product-block__label-special-offer">
+
+                                                </div>
+                                                <div class="product-block__description">
+                                                    <div class="product-block__price">
+                                                        <div class="product-price">
+                                                            <div class="product-price__item product-price__item_new">
+                                                                <span>$258.96</span>
+                                                            </div>
+                                                            <div class="product-price__item product-price__item_old">
+                                                                <span>$328.96</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__btn ">
+                                                        <div class="btn-details btn-details_red">
+                                                            <button class="btn-details__btn" type="button"><span class="btn-details__text" >details</span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__text">
+                                                        <span>Sed do eiusmod tempor incididuntlabore et dolore magna aliqua</span>
+                                                    </div>
+                                                    <div class="product-block__brand">
+                                                        <!--<img src="img/product/item4.png" alt="product">-->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="special-offers__item">
+                                        <div class="product-block">
+                                            <a href="" class="product-block__link">
+                                                <div class="product-block__title">
+                                                    <div class="product-block-title">
+                                                        <span class="product-block-title__unit">Set magna </span>
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">ipsum dolor</span>
+                                                        <span class="product-block-title__unit">sit conse</span>
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">stetur adipisi</span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="product-block__image">
+                                                    <img src="img/product/item5.png" alt="product">
+                                                </div>
+                                                <div class="product-block__label-special-offer">
+
+                                                </div>
+                                                <div class="product-block__description">
+                                                    <div class="product-block__price">
+                                                        <div class="product-price">
+                                                            <div class="product-price__item product-price__item_new">
+                                                                <span>$258.96</span>
+                                                            </div>
+                                                            <div class="product-price__item product-price__item_old">
+                                                                <span>$328.96</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__btn">
+                                                        <div class="btn-details">
+                                                            <button class="btn-details__btn" type="button"><span class="btn-details__text" >details</span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__text">
+                                                        <span>Sed do eiusmod tempor incididuntlabore et dolore magna aliqua</span>
+                                                    </div>
+                                                    <div class="product-block__brand">
+                                                        <!--<img src="img/product/item4.png" alt="product">-->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <div class="product-block">
+                                            <a href="" class="product-block__link">
+                                                <div class="product-block__title ">
+                                                    <div class="product-block-title product-block-title_2row">
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">dolor</span>
+                                                        <span class="product-block-title__unit">sit conse Ctetur adipisi  </span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-block__image">
+                                                    <img src="img/product/item5.jpg" alt="product">
+                                                </div>
+                                                <div class="product-block__label-special-offer">
+
+                                                </div>
+                                                <div class="product-block__description">
+                                                    <div class="product-block__price">
+                                                        <div class="product-price">
+                                                            <div class="product-price__item product-price__item_new">
+                                                                <span>$258.96</span>
+                                                            </div>
+                                                            <div class="product-price__item product-price__item_old">
+                                                                <span>$328.96</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__btn">
+                                                        <div class="btn-details">
+                                                            <button class="btn-details__btn" type="button"><span class="btn-details__text" >details</span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__text">
+                                                        <span>Sed do eiusmod tempor incididuntlabore et dolore magna aliqua</span>
+                                                    </div>
+                                                    <div class="product-block__brand">
+                                                        <!--<img src="img/product/item4.png" alt="product">-->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="special-offers__item">
+                                        <div class="product-block">
+                                            <a href="" class="product-block__link">
+                                                <div class="product-block__title">
+                                                    <div class="product-block-title product-block-title_2row">
+                                                        <span class="product-block-title__unit">Lorem </span>
+                                                        <span class="product-block-title__unit product-block-title__unit_upper">ipsum dolor</span>
+                                                        <span class="product-block-title__unit">sit conse Ctetur adipisi</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-block__image">
+                                                    <img src="img/product/item7.png" alt="product">
+                                                </div>
+                                                <div class="product-block__label-special-offer">
+
+                                                </div>
+                                                <div class="product-block__description">
+                                                    <div class="product-block__price">
+                                                        <div class="product-price">
+                                                            <div class="product-price__item product-price__item_new">
+                                                                <span>$258.96</span>
+                                                            </div>
+                                                            <div class="product-price__item product-price__item_old">
+                                                                <span>$328.96</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-block__btn">
+                                                        <div class="btn-details">
+                                                            <button class="btn-details__btn" type="button"><span class="btn-details__text" >details</span></button>
+                                                        </div>
+
+
+                                                    </div>
+                                                    <div class="product-block__text">
+                                                        <span>Sed do eiusmod tempor incididuntlabore et dolore magna aliqua</span>
+                                                    </div>
+                                                    <div class="product-block__brand">
+                                                        <!--<img src="img/product/item4.png" alt="product">-->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

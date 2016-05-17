@@ -20,8 +20,8 @@ h1{
 }
 
 img {
-    max-width:100%;
-    vertical-align:bottom;
+    max-width: 100%;
+    vertical-align: bottom;
 }
 
 p{
@@ -363,10 +363,15 @@ input[type="search"].search-field__input {
     padding: 20px;
     background-color: #ffffff;
 }
-.showcase-sidebar{
+
+.showcase-inn__col_sidebar{
     width: 16.15%;
     max-width: 150px;
     margin-right: 10px;
+}
+.showcase-inn__col_main-content {
+    width: 83.8%;
+    max-width: 790px;
 }
 .sidebar-nav{
     padding: 0 11px 2px 8px;
@@ -380,8 +385,6 @@ input[type="search"].search-field__input {
     padding: 0;
 }
 .sidebar-menu__item {
-    /*padding-bottom: 6px;*/
-    /*padding-top: 6px;*/
     border-top: 1px solid #484848;
     color: #959595;
     font-family: Arial;
@@ -397,6 +400,7 @@ input[type="search"].search-field__input {
     padding-bottom: 5px;
     padding-top: 6px;
     position: relative;
+    color: white;
 }
 .sidebar-menu__item-title_active{
     border-bottom: 1px solid #484848;
@@ -446,6 +450,9 @@ input[type="search"].search-field__input {
 .sidebar-menu__item_active{
     color: #fff;
 }
+.submenu-item_active{
+    color: #fff;
+}
 .submenu-item span{
     color: #81d8d0;
 }
@@ -472,14 +479,14 @@ input[type="search"].search-field__input {
 }
 .social-block__name{
     font-family: Arial;
-    font-size: 109;
+    font-size: 109%;
     color: white;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 4px 0 4px 3px;
     line-height: 23px;
     position: relative;
-    letter-spacing: -1.2px;
+    /*letter-spacing: -1.2px;*/
 }
 .social-block__name:before{
     content: '';
@@ -531,7 +538,9 @@ input[type="search"].search-field__input {
 .current-slide__img{
     margin-top: -120px;
 }
-
+.current-slide__img img{
+    width: 100%;
+}
 .slider__slides-list{
     position: absolute;
     bottom: 0;
@@ -641,4 +650,207 @@ input[type="search"].search-field__input {
 }
 .call-action-button{
     height: 100%;
+}
+
+.showcase-proposal__row_deals-day{
+    padding: 10px 0 15px 30px;
+    border: 1px solid #dfe1e4;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.deals-day-block{
+    width: 100%;
+}
+.deals-day-block__col{
+    /*display: inline-block;*/
+}
+
+.deals-day-block-info{
+
+    font-family: 'Open Sans', sans-serif;
+    color: #1b1b1b;
+}
+.deals-day-block__col_info{
+    width: 26%;
+    display: inline-block;
+    margin-top: 40px;
+}
+.deals-day-block__col_slider{
+    width: 72%;
+    float: right;
+    margin-top: 31px;
+}
+.call-text-block_title{
+    line-height: 1;
+}
+.deals-day-block-info__text-row_title{
+    font-size: 464%;
+    letter-spacing: -1.2px;
+    line-height: 1;
+}
+.call-text-block__unit_f41{
+    font-size: 80.4%;
+}
+.deals-day-block-info__text-row_description{
+    font-size: 145.5%;
+}
+.call-text-block__unit{
+    vertical-align: top;
+    line-height: 1;
+}
+.call-text-block__unit_br{
+    display: block;
+}
+.call-text-block__unit_grey{
+    color: #767575;
+}
+.call-text-block__unit_green{
+    color: #81d8d0;
+}
+.call-text-block__unit_semi-bold{
+    font-weight: 600;
+}
+.deals-day-block-slider{
+    display: table;
+    position: relative;;
+}
+.deals-day-block-slider:before{
+    content: "";
+    width: 18px;
+    height: 26px;
+    background-image: url('../img/icons/arrow-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+}
+.deals-day-block-slider:after{
+    content: "";
+    width: 18px;
+    height: 26px;
+    background-image: url('../img/icons/arrow-right-grey.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    right: 10px;
+}
+.deals-day-block-slider__item{
+    display: table-cell;
+    vertical-align: top;
+    width: 30%;
+}
+.deals-day-product__image{
+    position: relative;
+    height: 138px;
+}
+.deals-day-product__image img{
+   max-height: 138px;
+}
+
+.deals-day-product__image-special-offers{
+    background-image: url('../img/icons/spec-ofer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 34px;
+    left: 13px;
+}
+.product-block-title{
+    color: #b2b2b2;
+    font-size: 109%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 1.5;
+}
+.product-block-title_red{
+    color: #ff7272;
+}
+.product-block-title_2row{
+    width: 80%;
+    margin: 0 auto;
+}
+.product-block-title__unit_upper{
+    text-transform: uppercase;
+}
+.deals-day-product__price{
+
+}
+
+.product-block{
+    padding: 18px 5px 15px 10px;
+}
+.product-price{
+    text-align: center;
+    color: #81d8d0;
+    line-height: 1.5;
+
+}
+.product-block__link{
+    display: block;
+    height: 100%;
+}
+.product-block__image{
+    text-align: center;
+    min-height: 150px;
+}
+.product-block__price{
+    display: inline-block;
+}
+.product-block__btn{
+    float:right;
+    vertical-align: top;
+ }
+
+.product-price__item_old{
+    text-decoration: line-through;
+}
+.product-price__item_new{
+    font-size: 109%;
+    font-weight: 700;
+}
+
+.showcase-proposal__row_special-offers{
+    margin-top: 10px;
+ }
+
+.special-offers{
+    display: flex;
+    justify-content: space-between;
+
+}
+.special-offers__item{
+    border: 1px solid #dfe1e4;
+    max-width: 190px;
+    width: 24%;
+}
+.btn-details{
+    width: 68px;
+    height: 24px;
+    background-image:url('../img/icons/arrow-right-white.png'), linear-gradient(to top, #545454 0%, #5e5e5e 100%);
+    background-repeat: no-repeat;
+    background-position: 53px center, center;
+    border-radius: 2px;
+    border-bottom: 1px solid #212122;
+}
+.btn-details_red{
+    background-image: url('../img/icons/arrow-right-white.png'),  linear-gradient(to top, #ed6464 0%, #ff7272 100%);
+    border-bottom: 1px solid #ae4a4a;
+
+}
+.btn-details__btn{
+    line-height: 24px;
+}
+
+.btn-details__text{
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 12px;
 }
